@@ -1,5 +1,5 @@
 {
-  "name": "news-scrape",
+  "name": "mongoose_skeleton",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -8,22 +8,13 @@
     "start": "node server.js",
     "watch": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Tothinator/news-scrape.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Tothinator/news-scrape/issues"
-  },
-  "homepage": "https://github.com/Tothinator/news-scrape#readme",
   "dependencies": {
     "axios": "^0.18.0",
-    "cheerio": "^1.0.0-rc.3",
-    "express": "^4.16.4",
-    "express-handlebars": "^3.0.2",
-    "mongoose": "^5.5.2"
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.3.16",
+    "morgan": "^1.9.1"
   }
 }
