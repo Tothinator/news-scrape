@@ -28,9 +28,9 @@ var ArticleSchema = new Schema({
     type: Boolean,
     default: false
   },
-  // `note` is an object that stores a Note id
+  // `notes` is an object that stores a Note ids
   // The ref property links the ObjectId to the Note model
-  // This allows us to populate the Article with an associated Note
+  // This allows us to populate the Article with associated Note
   notes: [
     {
       type: Schema.Types.ObjectId,

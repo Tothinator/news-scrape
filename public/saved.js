@@ -33,7 +33,7 @@ $(function() {
             // Adding some information about the article and article notes to the save button for easy access
             // When trying to add a new note
             $(".btn.save").data("article", noteData);
-            // renderNotesList will populate the actual note HTML inside of the modal we just created/opened
+            
             renderNotesList(noteData);
         });
     });
